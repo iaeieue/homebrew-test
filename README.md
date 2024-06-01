@@ -10,7 +10,7 @@ Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`
 
 ```ruby
 tap "iaeieue/test"
-brew "<formula>"
+brew "<formula>"ddd
 ```
 
 ## Documentation
