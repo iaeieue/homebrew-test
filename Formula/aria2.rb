@@ -52,11 +52,6 @@ class Aria2 < Formula
     bash_completion.install "doc/bash_completion/aria2c"
   end
 
-  service do
-    run [opt_sbin/"aria2c"]
-    keep_alive true
-  end
-
   test do
     system "#{bin}/aria2c", "https://brew.sh/"
     assert_predicate testpath/"index.html", :exist?, "Failed to create index.html!"
